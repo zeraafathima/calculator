@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.title('calculator')
-st.header('this is a calculator application')
-st.subheader('created by fathima')
+st.title('Calculator')
+st.header('This is a Calculator application')
+st.subheader('Created by Fathima')
 x=st.number_input(label='enter the first number')
 action=st.selectbox(label='select action',options=["+","-","*","/"])
 y=st.number_input(label='enter the second number')
